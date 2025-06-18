@@ -9,14 +9,14 @@
  */
 int main(void)
 {
-	int Num;
+	int num;
 	char letter;
 
-	for (Num = 0; Num < 10; Num++)
+	for (num = 0; num < 10; num++)
 	{
-		putchar((Num % 10) + '0');
+		putchar((num % 10) + '0');
 	}
-	for (letter = 'a'; letter <= 'k'; letter++)
+	for (letter = 'a'; letter <= 'f'; letter++)
 	{
 		putchar(letter);
 	}
