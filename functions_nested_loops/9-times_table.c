@@ -14,6 +14,4 @@ void times_table(void)
 	{
 		printf("9 * %d = %d\n", i, 9 * i);
 	}
-	_putchar('\n');
-	return;
 }
