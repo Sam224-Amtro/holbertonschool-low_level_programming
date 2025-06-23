@@ -18,4 +18,5 @@ Les principaux fichiers et ce qu'ils font :
 | 1-isdigit.c            | Fonction qui vérifie si un caractère est un chiff           |
 | 2-mul.c                | Fonction qui multiplie deux entiers                           |
 | 3-print_numbers.c      | Affiche les chiffres de 0 à                                 | 
-| 4-print_most_numbers.c | Affiche les chiffres de 0 à 9 sauf 2 et 4                   |
+| 4-print_most_numbers.c | Affiche les chiffres de 0 à 9 sauf 2 et 4                   
+| 5-more_numbers.c       | Affiche 10 fois les nombres de 0 à 14                       |
