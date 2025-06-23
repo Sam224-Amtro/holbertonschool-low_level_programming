@@ -4,6 +4,8 @@
 
 /**
  * mul -  that multiplies two integers
+ * @a: first Parameter for number
+ * @b: second parameter for number
  *
  * Return: Always 0
  */
