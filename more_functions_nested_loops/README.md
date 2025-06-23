@@ -11,10 +11,11 @@ Ce projet approfondit l'utilisation des fonctions, des boucles imbriquées (nest
 - [Appliquer des conditions logiques dans des boucles]
 
 ## Contenu
-Les principaux fichiers et ce qu’ils font :
-| Fichier             | Description                                                                |
+Les principaux fichiers et ce qu'ils font :
+| Fichier             | Description                                                      |
 | ----------------- | ------------------------------------------------------------------ |
-| [0-isupper.c]         | !Fonction qui vérifie si un caractère est une lettre majuscule |
-| [1-isdigit.c]         | !Fonction qui vérifie si un caractère est un chiff           |
-| [2-mul.c]             | !Fonction qui multiplie deux entiers                           |
-| [3-print_numbers.c]   | !Affiche les chiffres de 0 à 9                               |
+| 0-isupper.c            | Fonction qui vérifie si un caractère est une lettre majuscu |
+| 1-isdigit.c            | Fonction qui vérifie si un caractère est un chiff           |
+| 2-mul.c                | Fonction qui multiplie deux entiers                           |
+| 3-print_numbers.c      | Affiche les chiffres de 0 à                                 | 
+| 4-print_most_numbers.c | Affiche les chiffres de 0 à 9 sauf 2 et 4                   |
