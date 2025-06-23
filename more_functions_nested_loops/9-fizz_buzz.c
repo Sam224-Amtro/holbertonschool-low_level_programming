@@ -3,7 +3,12 @@
 #include <stdlib.h>
 
 /**
- * mian -  that prints the numbers from 1 to 100
+ * main - FizzBuzz test de 1 à 100.
+ *
+ * Affiche les nombres de 1 à 100 :
+ * - "Fizz" pour les multiples de 3
+ * - "Buzz" pour les multiples de 5
+ * - "FizzBuzz" pour les multiples de 3 et 5
  *
  * Return: Always 0
  */
