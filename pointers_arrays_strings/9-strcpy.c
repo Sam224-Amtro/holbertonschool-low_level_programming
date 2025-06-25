@@ -11,12 +11,12 @@
  */
 char *_strcpy(char *dest, char *src)
 {
-	int k;
+	int position;
 
-	while (src[k])
+	while (src[position])
 	{
-		dest[k] = src[k];
-		k++;
+		dest[position] = src[position];
+		position++;
 	}
 	return (dest);
 }
