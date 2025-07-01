@@ -4,22 +4,17 @@
 
 /**
  * _puts_recursion - that prints a string, followed by a new line
- * @s: The pointers check
+ * @s: the string to print
  *
  * Return: Always 0
  */
 void _puts_recursion(char *s)
 {
-	int k;
-
-	for (k = 0; s[k] != '\0'; k++)
+	if (*s == '\0')
 	{
-		if (s[k] == '\0')
-		{
-			putchar('\n');
-			return;
-		}
-		putchar(s[k]);
+		_putchar('\n');
+		return;
 	}
-	putchar('\n');
+	_putchar(*s);
+	_puts_recursion(s + 1);
 }
