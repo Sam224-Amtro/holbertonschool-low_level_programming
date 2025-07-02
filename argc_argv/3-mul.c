@@ -7,7 +7,7 @@
  * @argc: this is argument
  * @argv: the table to character
  *
- * Return: Always 0
+ * Return: Always error, success 1
  */
 int main(int argc, char *argv[])
 {
