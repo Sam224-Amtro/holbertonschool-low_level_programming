@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 		num = strtol(argv[k], &endptr, 10);
 		if (*endptr != '\0' || num < 0)
 		{
-			printf("Errror\n");
+			printf("Error\n");
 			return (1);
 		}
 		sum += num;
