@@ -1,5 +1,5 @@
 Welcome to the projet C - More malloc, free
-le Flowchart la task 3
+le Flowchart la task 3 schema
 
              +---------------------------+
              |      array_range(min, max)|
