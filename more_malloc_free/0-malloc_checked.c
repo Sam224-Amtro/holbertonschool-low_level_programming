@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * *malloc_checked - that allocates memory using malloc
+ * malloc_checked - that allocates memory using malloc
  * @b: this is number from byste
  *
  * Return: a pointer to the allocated memory, Else if return exit status 98
