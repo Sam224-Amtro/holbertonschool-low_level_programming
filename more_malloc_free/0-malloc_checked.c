@@ -2,6 +2,7 @@
 #include "main.h"
 #include <stdlib.h>
 
+
 /**
  * malloc_checked - that allocates memory using malloc
  * @b: this is number from byste
@@ -10,13 +11,13 @@
  */
 void *malloc_checked(unsigned int b)
 {
-	void *k;
+	void *arr;
 
-	k = malloc(b);
+	arr = malloc(b);
 
-	if (k == NULL)
+	if (arr == NULL)
 	{
 			exit(98);
 	}
-	return (k);
+	return (arr);
 }
