@@ -10,7 +10,6 @@
  * @name: this is for character char
  * @age: this is for character float
  * @owner: this is for character char
- * @dog_t: Details of a dog I don't know
  *
  */
 struct dog
