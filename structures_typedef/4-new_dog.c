@@ -2,31 +2,25 @@
 #include "dog.h"
 
 /**
- * new_dog - that creates a new dog
- * @name: this is the string from name
- * @age: this is the string from age
- * @owner: this is the string from owner
+ * new_dog - Creates a new dog
+ * @name: Pointer to name string
+ * @age: Dog's age
+ * @owner: Pointer to owner's name string
  *
- * Return: Always 0
+ * Return: Pointer to new dog_t struct, or NULL on failure
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *newDog;
 	int i, j, k;
 
-	newDog = malloc(sizeof(struct dog));
+	newDog = malloc(sizeof(dog_t));
 	if (newDog == NULL)
-	{
 		return (NULL);
-	}
-	for (i = 0; *(name + i); i++)
+
+	for (i = 0; name[i]; i++)
 		;
 	i++;
-	for (j = 0; *(owner + j); j++)
-	{
-		;
-	}
-	j++;
 	newDog->name = malloc(i * sizeof(char));
 	if (newDog->name == NULL)
 	{
@@ -34,10 +28,11 @@ dog_t *new_dog(char *name, float age, char *owner)
 		return (NULL);
 	}
 	for (k = 0; k < i; k++)
-	{
-		*(newDog->name + k) = *(name + i);
-	}
-	newDog->age = age;
+		newDog->name[k] = name[k];
+
+	for (j = 0; owner[j]; j++)
+		;
+	j++;
 	newDog->owner = malloc(j * sizeof(char));
 	if (newDog->owner == NULL)
 	{
@@ -46,8 +41,9 @@ dog_t *new_dog(char *name, float age, char *owner)
 		return (NULL);
 	}
 	for (k = 0; k < j; k++)
-	{
-		*(newDog->owner + k) = *(owner + k);
-	}
+		newDog->owner[k] = owner[k];
+
+	newDog->age = age;
+
 	return (newDog);
 }
