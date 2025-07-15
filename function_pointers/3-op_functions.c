@@ -6,7 +6,7 @@
  * @a: First integer
  * @b: Second integer
  *
- * Return: The sum of A and B
+ * Return: The sum of a and b
  */
 int op_add(int a, int b)
 {
@@ -58,7 +58,7 @@ int op_div(int a, int b)
  * @a: Dividend
  * @b: Divisor
  *
- * Return: The rest of the Division of A by B
+ * Return: The rest of the Division of 'a' by 'b'
  */
 int op_mod(int a, int b)
 {
