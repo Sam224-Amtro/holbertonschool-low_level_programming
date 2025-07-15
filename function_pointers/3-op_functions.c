@@ -42,14 +42,10 @@ int op_mul(int a, int b)
  * @a: Dividend
  * @b: Divisor
  *
- * Return: The quotient of a divided by b, or 0 if b is 0
+ * Return: the result of the division of a by b.
  */
 int op_div(int a, int b)
 {
-	if (b == 0)
-	{
-		return (0);
-	}
 	return (a / b);
 }
 
@@ -58,13 +54,9 @@ int op_div(int a, int b)
  * @a: Dividend
  * @b: Divisor
  *
- * Return: The rest of the Division of 'a' by 'b'
+ * Return: the remainder of the division of a by b
  */
 int op_mod(int a, int b)
 {
-	if (b == 0)
-	{
-		return (0);
-	}
 	return (a % b);
 }
