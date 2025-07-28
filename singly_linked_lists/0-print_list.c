@@ -7,7 +7,7 @@
  * @h: Pointer to the list_t list
  *
  * Description: singly linked list node structure
- * Return: the number of nodes
+ * Return: The number of nodes in the list
  */
 size_t print_list(const list_t *h)
 {
