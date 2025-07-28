@@ -6,7 +6,6 @@
  * print_list - Prints all the elements of a list_t list
  * @h: Pointer to the list_t list
  *
- * Description: singly linked list node structure
  * Return: The number of nodes in the list
  */
 size_t print_list(const list_t *h)
@@ -23,8 +22,8 @@ size_t print_list(const list_t *h)
 		{
 			printf("[%u] %s\n", h->len, h->str);
 		}
-		count++;
 		h = h->next;
+		count++;
 	}
 	return (count);
 }
