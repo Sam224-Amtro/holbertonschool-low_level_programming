@@ -6,8 +6,8 @@
 #include <string.h>
 
 /**
- * print_list - that prints all the elements of a list_t list
- * @h: The pointers to check
+ * print_list - Prints all the elements of a list_t list
+ * @h: Pointer to the list_t list
  *
  * Description: singly linked list node structure
  * Return: the number of nodes
